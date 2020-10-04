@@ -11,6 +11,13 @@
 		640F93C125281B4900F2DA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93C025281B4900F2DA3A /* ContentView.swift */; };
 		640F93C325281B4D00F2DA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640F93C225281B4D00F2DA3A /* Assets.xcassets */; };
 		640F93C625281B4D00F2DA3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640F93C525281B4D00F2DA3A /* Preview Assets.xcassets */; };
+		640F93D025281ED200F2DA3A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93CF25281ED200F2DA3A /* SearchView.swift */; };
+		640F93D425281EEA00F2DA3A /* SecurityNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93D325281EE900F2DA3A /* SecurityNavigationView.swift */; };
+		640F93D82528235B00F2DA3A /* TopShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93D72528235B00F2DA3A /* TopShape.swift */; };
+		640F93DB25282B1700F2DA3A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640F93DA25282B1700F2DA3A /* MenuView.swift */; };
+		640F93DE2528330000F2DA3A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 640F93DD252832FF00F2DA3A /* README.md */; };
+		64B171A125295303005FDD7B /* EmergencyCallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171A025295302005FDD7B /* EmergencyCallsView.swift */; };
+		64B171A52529540C005FDD7B /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B171A42529540C005FDD7B /* SceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		640F93C225281B4D00F2DA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		640F93C525281B4D00F2DA3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		640F93C725281B4D00F2DA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640F93CF25281ED200F2DA3A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		640F93D325281EE900F2DA3A /* SecurityNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityNavigationView.swift; sourceTree = "<group>"; };
+		640F93D72528235B00F2DA3A /* TopShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShape.swift; sourceTree = "<group>"; };
+		640F93DA25282B1700F2DA3A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = SmartHomeAndSecurity/MenuView.swift; sourceTree = SOURCE_ROOT; };
+		640F93DD252832FF00F2DA3A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64B171A025295302005FDD7B /* EmergencyCallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmergencyCallsView.swift; path = SmartHomeAndSecurity/EmergencyCallsView.swift; sourceTree = SOURCE_ROOT; };
+		64B171A42529540C005FDD7B /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneView.swift; path = SmartHomeAndSecurity/SceneView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 		640F93B225281B4900F2DA3A = {
 			isa = PBXGroup;
 			children = (
+				640F93DD252832FF00F2DA3A /* README.md */,
 				640F93BD25281B4900F2DA3A /* SmartHomeAndSecurity */,
 				640F93BC25281B4900F2DA3A /* Products */,
 			);
@@ -52,6 +67,7 @@
 		640F93BD25281B4900F2DA3A /* SmartHomeAndSecurity */ = {
 			isa = PBXGroup;
 			children = (
+				640F93CE25281EC300F2DA3A /* Views */,
 				640F93BE25281B4900F2DA3A /* SmartHomeAndSecurityApp.swift */,
 				640F93C025281B4900F2DA3A /* ContentView.swift */,
 				640F93C225281B4D00F2DA3A /* Assets.xcassets */,
@@ -67,6 +83,19 @@
 				640F93C525281B4D00F2DA3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		640F93CE25281EC300F2DA3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64B171A42529540C005FDD7B /* SceneView.swift */,
+				64B171A025295302005FDD7B /* EmergencyCallsView.swift */,
+				640F93DA25282B1700F2DA3A /* MenuView.swift */,
+				640F93CF25281ED200F2DA3A /* SearchView.swift */,
+				640F93D325281EE900F2DA3A /* SecurityNavigationView.swift */,
+				640F93D72528235B00F2DA3A /* TopShape.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640F93DE2528330000F2DA3A /* README.md in Resources */,
 				640F93C625281B4D00F2DA3A /* Preview Assets.xcassets in Resources */,
 				640F93C325281B4D00F2DA3A /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				640F93C125281B4900F2DA3A /* ContentView.swift in Sources */,
+				64B171A125295303005FDD7B /* EmergencyCallsView.swift in Sources */,
+				640F93DB25282B1700F2DA3A /* MenuView.swift in Sources */,
+				64B171A52529540C005FDD7B /* SceneView.swift in Sources */,
+				640F93D025281ED200F2DA3A /* SearchView.swift in Sources */,
+				640F93D82528235B00F2DA3A /* TopShape.swift in Sources */,
+				640F93D425281EEA00F2DA3A /* SecurityNavigationView.swift in Sources */,
 				640F93BF25281B4900F2DA3A /* SmartHomeAndSecurityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
